@@ -1,0 +1,33 @@
+
+.header-style{
+background-color: rgba(41, 1, 1, 0.7);
+padding: 30px 100px;
+text-align: center;
+font-size: large;
+font-family: 'Cinzel', serif;
+border-radius: 10px;
+
+}   
+.body-style    {
+background-color: rgb(34, 2, 2);
+color: white;
+font-family: 'playfair display', serif;
+}
+.arrancar-container-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../IMG/espadasbanner.jpg');
+    background-size:contain;
+    height:500px;
+
+}
+.text-over-bg{
+    background-color: rgba(34, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+a {
+    color: rgb(135, 240, 231);
+    text-decoration:wavy;
+}
