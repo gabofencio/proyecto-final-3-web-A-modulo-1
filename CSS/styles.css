@@ -1,33 +1,93 @@
-
-.header-style{
-background-color: rgba(41, 1, 1, 0.7);
-padding: 30px 100px;
-text-align: center;
-font-size: large;
-font-family: 'Cinzel', serif;
-border-radius: 10px;
-
-}   
-.body-style    {
-background-color: rgb(34, 2, 2);
-color: white;
-font-family: 'playfair display', serif;
+body, p, .sub-header,.kon{
+    padding: 0;
+    margin: 0;
 }
-.arrancar-container-style{
+nav {
+    text-align: center; 
+}
+
+.header-style {
+    background-color: transparent;
+    padding: 30px 100px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    border-radius: 10px;
+
+}
+.text-over-bg {
+    background-color: rgba(36, 2, 2, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.675;
+    text-align: center;
+}
+.body-background {
+    background-image: url('https://w.wallhaven.cc/full/4o/wallhaven-4o511l.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-style {
+    color: white;
+    font-family: 'playfair display', serif;
+}
+.section {
+    background-color: rgb(26, 0, 0);
+}
+.sub-header{
+    background-color: rgba(87, 90, 92, 0.7);
+    text-align: center;
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    border-radius: 10px;
+}
+.arrancar-container-style {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../IMG/espadasbanner.jpg');
-    background-size:contain;
-    height:500px;
-
-}
-.text-over-bg{
-    background-color: rgba(34, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
+    background-image:
+    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
+    linear-gradient(to top, rgb(26, 0, 0),transparent),
+    url('../IMG/espadasbanner.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 a {
-    color: rgb(135, 240, 231);
-    text-decoration:wavy;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(252, 56, 56);
+    text-transform: uppercase;
+    text-decoration: dashed;
+}
+
+.hiper-style {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hiper-style:hover {
+    color : rgb(255, 138, 138);
+    background-color: rgb(68, 68, 68);
+    padding: 15px;
+}
+
+.image-hover {
+    transform: scale(1.0);
+    transition: transform 300ms ease-out;
+}
+
+.image-hover:hover {
+    transform: scale(1.15);
+    transition: transform 300ms ease-out;
+}
+.dynamic-image{
+    width: 25%;
+    
+}
+.kon{
+    width: 3%;
+    
 }
