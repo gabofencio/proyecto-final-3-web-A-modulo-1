@@ -1,9 +1,13 @@
-body, p, .sub-header,.kon{
+body, p, .sub-header,.kon, nav{
     padding: 0;
     margin: 0;
 }
-nav {
-    text-align: center; 
+.inner-nav {
+    text-align: center;
+    background-color: rgba(58, 10, 10, 0.7);
+
+    padding:2vh ;
+    opacity: .8;
 }
 
 .header-style {
@@ -17,7 +21,7 @@ nav {
 }
 .text-over-bg {
     background-color: rgba(36, 2, 2, 0.7);
-    padding: 20px;
+    padding: 2vh;
     border-radius: 10px;
     opacity: 0.675;
     text-align: center;
@@ -49,7 +53,7 @@ nav {
     background-image:
     linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
     linear-gradient(to top, rgb(26, 0, 0),transparent),
-    url('../IMG/espadasbanner.jpg');
+    url('../IMG/espada.png');
     background-size: cover;
     height: 100vh;
 }
@@ -87,14 +91,17 @@ a:hover {
 }
 
 .hiper-style {
-    padding: 10px;
+    background-color: rgba(58, 10, 10, 0.7);;
+    padding: 2vh;
     border-radius: 10px;
+    margin: 3vh;
 }
 
 .hiper-style:hover {
     color : rgb(255, 138, 138);
-    background-color: rgb(68, 68, 68);
-    padding: 15px;
+    background-color: rgb(27, 26, 26);
+    transform: scale(1.15);
+    transition: transform 300ms ease-out;
 }
 
 .image-hover {
