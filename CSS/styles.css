@@ -46,6 +46,20 @@ body, p, .sub-header,.kon, nav{
     border-radius: 10px;
 }
 
+.form {
+
+    background-size: cover;
+    padding: 2vh;
+    border-radius: 10px;
+    flex-direction:column;
+}
+.container{
+    background-image: url('');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
 .espada-container-style {
     display: flex;
     justify-content: center;
@@ -119,6 +133,12 @@ a:hover {
     
 }
 .kon{
-    width: 3%;
-    
+width: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 1%;
+right: 1%;
+
 }
