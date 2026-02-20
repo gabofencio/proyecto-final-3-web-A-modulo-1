@@ -41,7 +41,8 @@ nav {
     font-family: 'Cinzel', serif;
     border-radius: 10px;
 }
-.arrancar-container-style {
+
+.espada-container-style {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +50,28 @@ nav {
     linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
     linear-gradient(to top, rgb(26, 0, 0),transparent),
     url('../IMG/espadasbanner.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.shinigami-container-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
+    linear-gradient(to top, rgb(26, 0, 0),transparent),
+    url('../IMG/gotei\ 13.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.quincy-container-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
+    linear-gradient(to top, rgb(26, 0, 0),transparent),
+    url('../IMG/wandereich.png');
     background-size: cover;
     height: 100vh;
 }
@@ -85,6 +108,7 @@ a:hover {
 }
 .dynamic-image{
     width: 25%;
+    height: auto;
     
 }
 .kon{
