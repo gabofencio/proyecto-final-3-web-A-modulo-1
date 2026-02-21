@@ -6,9 +6,15 @@ body, p, .sub-header,.kon, nav{
     text-align: center;
     background-color: rgba(58, 10, 10, 0.7);
     padding:2vh ;
-    opacity: .8;
+    opacity: .8;    
 }
 
+input{
+    margin: 0.5vh;
+    padding: 0.5vh;
+    border-radius: 10px;
+    color:rgb(48, 2, 0)
+}
 .header-style {
     background-color: transparent;
     padding: 30px 100px;
@@ -51,14 +57,31 @@ body, p, .sub-header,.kon, nav{
     border-radius: 10px;
     flex-direction:column;
 }
+
 .container{
     background-color: rgba(56, 2, 2, 0.384);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-
+    gap: 1rem; /* 16px */
 }
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .espada-container-style {
     display: flex;
     justify-content: center;
@@ -133,13 +156,11 @@ a:hover {
     
 }
 .kon{
-width: 3%;
-position: fixed;
-bottom: 1%;
-right: 1%;
+    width: 2rem;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
 }
 ul{
     text-align: left;
-    margin-left: 35%;
-    margin-right: 20%;
 }
