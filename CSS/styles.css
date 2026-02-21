@@ -5,7 +5,6 @@ body, p, .sub-header,.kon, nav{
 .inner-nav {
     text-align: center;
     background-color: rgba(58, 10, 10, 0.7);
-
     padding:2vh ;
     opacity: .8;
 }
@@ -23,9 +22,10 @@ body, p, .sub-header,.kon, nav{
     background-color: rgba(36, 2, 2, 0.7);
     padding: 2vh;
     border-radius: 10px;
-    opacity: 0.675;
-    text-align: center;
+    opacity: 0.8;
+    text-align: center;  
 }
+
 .body-background {
     background-image: url('https://w.wallhaven.cc/full/4o/wallhaven-4o511l.jpg');
     background-size: cover;
@@ -47,18 +47,17 @@ body, p, .sub-header,.kon, nav{
 }
 
 .form {
-
-    background-size: cover;
     padding: 2vh;
     border-radius: 10px;
     flex-direction:column;
 }
 .container{
-    background-image: url('');
+    background-color: rgba(56, 2, 2, 0.384);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
+
 }
 .espada-container-style {
     display: flex;
@@ -67,7 +66,7 @@ body, p, .sub-header,.kon, nav{
     background-image:
     linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
     linear-gradient(to top, rgb(26, 0, 0),transparent),
-    url('../IMG/espada.png');
+    url('../IMG/espadas1.jpg');
     background-size: cover;
     height: 100vh;
 }
@@ -93,6 +92,7 @@ body, p, .sub-header,.kon, nav{
     background-size: cover;
     height: 100vh;
 }
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -134,11 +134,12 @@ a:hover {
 }
 .kon{
 width: 3%;
-display: flex;
-align-items: center;
-justify-content: center;
 position: fixed;
 bottom: 1%;
 right: 1%;
-
+}
+ul{
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 20%;
 }
