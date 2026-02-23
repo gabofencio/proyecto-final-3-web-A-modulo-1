@@ -1,20 +1,38 @@
-body, p, .sub-header,.kon, nav{
+body,
+p,
+.sub-header,
+.kon,
+nav {
     padding: 0;
     margin: 0;
 }
+
 .inner-nav {
     text-align: center;
     background-color: rgba(58, 10, 10, 0.7);
-    padding:2vh ;
-    opacity: .8;    
+    padding: 2vh;
+    opacity: .8;
 }
 
-input{
+input {
     margin: 0.5vh;
     padding: 0.5vh;
     border-radius: 10px;
-    color:rgb(48, 2, 0)
+    color: rgb(48, 2, 0)
 }
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.rukia {
+    width: 15%;
+}
+
 .header-style {
     background-color: transparent;
     padding: 30px 100px;
@@ -24,27 +42,32 @@ input{
     border-radius: 10px;
 
 }
+
 .text-over-bg {
     background-color: rgba(36, 2, 2, 0.7);
     padding: 2vh;
     border-radius: 10px;
     opacity: 0.8;
-    text-align: center;  
+    text-align: center;
 }
 
 .body-background {
     background-image: url('https://w.wallhaven.cc/full/4o/wallhaven-4o511l.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
+
 .body-style {
     color: white;
     font-family: 'playfair display', serif;
 }
+
 .section {
     background-color: rgb(26, 0, 0);
 }
-.sub-header{
+
+.sub-header {
     background-color: rgba(87, 90, 92, 0.7);
     text-align: center;
     font-size: large;
@@ -55,15 +78,16 @@ input{
 .form {
     padding: 2vh;
     border-radius: 10px;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-.container{
+.container {
     background-color: rgba(56, 2, 2, 0.384);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem; /* 16px */
+    gap: 1rem;
+    /* 16px */
 }
 
 iframe {
@@ -75,11 +99,17 @@ iframe {
     .container {
         flex-direction: column;
     }
-    
+
     iframe {
         width: 100%;
         height: auto;
     }
+}
+
+.highlight {
+    color: rgb(198, 205, 255);
+    font-weight: bold;
+    font-style: italic;
 }
 
 .espada-container-style {
@@ -87,32 +117,37 @@ iframe {
     justify-content: center;
     align-items: center;
     background-image:
-    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
-    linear-gradient(to top, rgb(26, 0, 0),transparent),
-    url('../IMG/espadas1.jpg');
+        linear-gradient(to bottom, rgb(26, 0, 0), transparent),
+        linear-gradient(to top, rgb(26, 0, 0), transparent),
+        url('../IMG/espadas1.jpg');
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
+
 .shinigami-container-style {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image:
-    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
-    linear-gradient(to top, rgb(26, 0, 0),transparent),
-    url('../IMG/gotei\ 13.jpg');
+        linear-gradient(to bottom, rgb(26, 0, 0), transparent),
+        linear-gradient(to top, rgb(26, 0, 0), transparent),
+        url('../IMG/gotei\ 13.jpg');
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
+
 .quincy-container-style {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image:
-    linear-gradient(to bottom, rgb(26, 0, 0), transparent), 
-    linear-gradient(to top, rgb(26, 0, 0),transparent),
-    url('../IMG/wandereich.png');
+        linear-gradient(to bottom, rgb(26, 0, 0), transparent),
+        linear-gradient(to top, rgb(26, 0, 0), transparent),
+        url('../IMG/wandereich.png');
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -128,14 +163,15 @@ a:hover {
 }
 
 .hiper-style {
-    background-color: rgba(58, 10, 10, 0.7);;
+    background-color: rgba(58, 10, 10, 0.7);
+    ;
     padding: 2vh;
     border-radius: 10px;
     margin: 3vh;
 }
 
 .hiper-style:hover {
-    color : rgb(255, 138, 138);
+    color: rgb(255, 138, 138);
     background-color: rgb(27, 26, 26);
     transform: scale(1.15);
     transition: transform 300ms ease-out;
@@ -150,17 +186,24 @@ a:hover {
     transform: scale(1.15);
     transition: transform 300ms ease-out;
 }
-.dynamic-image{
-    width: 25%;
+
+.dynamic-image {
+    width: 15%;
     height: auto;
-    
+
 }
-.kon{
+
+.kon {
     width: 2rem;
     position: fixed;
     bottom: 1%;
     right: 1%;
 }
-ul{
+
+inner-image {
+    width: 10%;
+}
+
+ul {
     text-align: left;
 }
