@@ -2,7 +2,7 @@
 Repositorio de proyecto final de HTML y CSS del modulo 1 del curso de frontend.
 La tematica de esta Landing Page esta enfocada en el universo de Bleach, dentro de la pagina inicial del proyecto encontraremos diversas secciones de información general de la saga haciendo uso de elementos de html como lo serían barras de navegación que llevan al usuario a las diversas secciones de la misma y a una pagina secundaria correspondiente a un newsletter. Dentro de la pagina de newsletter se encontrara un formulario de registro para la comunidad interesada en la saga, asi como un listado de beneficios para el usuario, de igual forma se puede encontrar multimedia en esta misma, desde videos de youtube hasta imagenes dinamicas.
 
->nota: La imagen flotante de Kon (El osito de abajo a la derecha  es una etiqueta <a> para ir al inicio de la pagina).
+>nota: La imagen flotante de Kon (El osito de abajo a la derecha  es una etiqueta `<a>` para ir al inicio de la pagina).
 
 -----------------------------------------------------------------------------
 
