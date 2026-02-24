@@ -20,7 +20,9 @@ input {
     border-radius: 10px;
     color: rgb(48, 2, 0)
 }
-
+footer-style{
+    color:rgba(255, 125, 90, 0.789)
+}
 h1 {
     font-weight: bold;
 }
@@ -87,7 +89,6 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* 16px */
 }
 
 iframe {
