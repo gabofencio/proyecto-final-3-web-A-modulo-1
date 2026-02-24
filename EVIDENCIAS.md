@@ -2,11 +2,11 @@
 
 En este documento se anexan las diversas evidencias del proyecto desarrollado en el modulo 1, esto incluye:
 
--*Capturas de pantalla de github pages, historial de commits y el sitio desplegado.*
+- *Capturas de pantalla de github pages, historial de commits y el sitio desplegado.*
 
--*Enlace a la pagina desplegada.*
+- *Enlace a la pagina desplegada.*
 
--*Sección de aprendizajes.* 
+- *Sección de aprendizajes.* 
 
 ------------------------------------------------------------------------
 
@@ -33,6 +33,7 @@ Todas las evidencias se encuentran dentro de la carpeta
 ------------------------------------------------------------------------
 
 ## 😼 🔗 Enlace a la pagina desplegada 🔗 😼
+
 Github Pages:
 `https://gabofencio.github.io/proyecto-final-3-web-A-modulo-1/`
 
@@ -45,17 +46,30 @@ Github Pages:
 
 ## 😼 🔥 1. ¿Qué fue lo más fácil y lo más retador? 🔥 😼
 
-**Respuesta:**\
+**Respuesta:**
 
--*Lo mas facil fue llevar a cabo la estructura de Html de las páginas asi como establecer la estetica de las mismas.*
+- *Lo más fácil fue llevar a cabo la estructura de HTML de las páginas así como establecer la estética de las mismas.*
 
--*Lo más retador que se presento para mi fue llevar a cabo un diseño consistente para la página, encontrar recursos audiovisuales y depurar los errores semanticos que se me presentaron.*
+- *Lo más retador que se presentó para mí fue llevar a cabo un diseño consistente a lo largo de la página, encontrar recursos audiovisuales adecuados y depurar los errores semánticos que se me presentaron durante el desarrollo del proyecto.*
 
 ------------------------------------------------------------------------
 
 ## 😼 🔥 2. ¿Qué etiquetas semánticas usaste y por qué? 🔥 😼
 
-**Respuesta:**\
+**Respuesta:**
+
+- `<doctype html>:` *Para definir que el documento es un HTML y que los navegadores lo puedan leer.*
+
+- `<html>:` *Para establecer los limites de lo que el navegador va a leer y establecer el idioma de la pagina con `lang`*
+
+- `<head>:` *Lo utilicé para enlazar las hoja de estilos a las paginas y para los metadatos (configuración general de la página).*
+
+- `<title>:` *La utilice para poner el titulo que aparece en las pestañas del navegador.*
+
+- `<meta>:` *para configurar los modos de visualización con `viewport` y para los caracteres mediante el `charset`*
+
+- `<body>:` *Para contener todo el contenido visible del cuerpo de las páginas.*
+
 - `<header>:` *Implemente esta etiqueta para establecer la cabecera de la página sirviendo como encabezado en el que implemente el logotipo y el nombre de la serie en japonés.*
 
 - `<h1>:` *Lo usé para los titulos principales de las páginas.*
@@ -96,7 +110,7 @@ Github Pages:
 
 ## 😼 🔥 3. ¿Cómo organizaste tus commits? 🔥 😼
 
-**Respuesta:**\
+**Respuesta:**
 
 *Organicé mis commits de forma gradual conforme al desarrollo del proyecto, los factores principales que tome en cuenta para llevar a cabo mis commits fueron los siguientes:.*
 
@@ -104,7 +118,7 @@ Github Pages:
 
 - *Modificaciones de arquitectura dentro de los archivos Html*
 
-- *Anexo de recursos de texto y audiovisuales en los archivos*
+- *Incorporación de recursos de texto y audiovisuales en los archivos*
 
 - *formateo y estilización mediante css*
 
@@ -119,10 +133,10 @@ Github Pages:
 
 ## 😼 🔥 4. ¿Qué mejorarías en la siguiente iteración? 🔥 😼
 
-**Respuesta:**\
+**Respuesta:**
 
-- *Optimizaría mi manejo de clases de CSS* 
+- *Optimizaría mi manejo de clases de CSS.* 
 
-- *Mejorar en uso de etiquetas semanticas* 
+- *Mejorar en uso de etiquetas semanticas.* 
 
-- *Implementación de tarjetas de presentación y prototipos de foro para la comunidad*
+- *Implementación de tarjetas de presentación y prototipos de foro para la comunidad.*

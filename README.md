@@ -1,13 +1,21 @@
-# 😼 Proyecto final Modulo 1 - Landing Page de Bleach 😼
-Repositorio de proyecto final de HTML y CSS del modulo 1 del curso de frontend.
-La tematica de esta Landing Page esta enfocada en el universo de Bleach, dentro de la pagina inicial del proyecto encontraremos diversas secciones de información general de la saga haciendo uso de elementos de html como lo serían barras de navegación que llevan al usuario a las diversas secciones de la misma y a una pagina secundaria correspondiente a un newsletter. Dentro de la pagina de newsletter se encontrara un formulario de registro para la comunidad interesada en la saga, asi como un listado de beneficios para el usuario, de igual forma se puede encontrar multimedia en esta misma, desde videos de youtube hasta imagenes dinamicas.
+# 😼 Proyecto final Módulo 1 - Landing Page de Bleach 😼
 
->nota: La imagen flotante de Kon (El osito de abajo a la derecha  es una etiqueta `<a>` para ir al inicio de la pagina).
+Repositorio de proyecto final de HTML y CSS del módulo 1 del curso de Frontend.
+La temática de esta Landing Page está enfocada en el universo de Bleach. Dentro de la página inicial del proyecto se encuentran diversas secciones con información general de la saga, haciendo uso de elementos de HTML como barras de navegación que permiten al usuario acceder a las diferentes páginas del proyecto, así como navegar internamente entre las secciones del index.
+
+Estas secciones contienen información sobre las distintas facciones de la saga y los personajes destacados de cada una, los cuales se muestran mediante imágenes dinámicas.
+
+Además, el proyecto cuenta con una página de newsletter, donde se incluye un formulario de registro para la comunidad interesada en la saga. También se presenta un listado de beneficios para el usuario y contenido multimedia como videos de YouTube e imágenes relacionadas con la serie.
+
+El proyecto fue desarrollado maquetando con `HTML` y estilizando con `CSS`. Para el control de versiones se usó `Git` y para el alojamiento del repositorio y el despliegue de la página se usaron `GitHub` y `GitHub Pages`, respectivamente. 
+
+>nota: La imagen flotante de Kon (El osito de abajo a la derecha es una etiqueta `<a>` para ir al inicio de la página).
 
 -----------------------------------------------------------------------------
 
 ## 😼 Propósito 😼
-este proyecto se llevo a cabo para desarrollar y fortalecer habilidades y conocimiento de desarrollo web haciendo uso de HTML, CSS, GIT, Github y Github Pages 
+
+Este proyecto se llevo a cabo para desarrollar y fortalecer habilidades y conocimientos de desarrollo web haciendo uso de HTML, CSS, Git, GitHub y GitHub Pages.
 
 -----------------------------------------------------------------------------
 ## 😼 Clonar el repositorio 😼
