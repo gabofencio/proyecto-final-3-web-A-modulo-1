@@ -9,7 +9,117 @@ nav {
 html{
     scroll-behavior: smooth;
 }
+/* 
+animaciones de photocard
+ */
+ .holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+ }
+ .holder .photocard{
+    margin-right: 20px;
+    transition: 300ms ease-out;
+ }
+  .holder .photocard:hover{
+    margin-right: 30px;
+    margin-left:10px;
+    transition: 300ms ease-out;
+ }
+.photocard{
+    max-width: 10%;
+    max-height:15%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.0);
+    transition: transform 300ms ease-out;
+    
+}
+.photocard img{
+    width: 100%;
+    height: 100%;
+    opacity:100%;
+    object-fit: scale-down;
+    transform: scale(1.0);
+    transition: transform 300ms ease-out;
+    transition: opacity 300ms ease out;
+}
+.photocard img:hover{
+   transform: scale(1.15);
+   transition: transform 300ms ease-out;
 
+}
+
+.photocard img:active{
+    opacity:60%;
+    transition: transform 300ms ease-out;
+    transition: opacity 300ms ease;
+}
+
+.photocard:hover{
+    transform: scale(1.15);
+    transition: transform 300ms ease-out;
+}
+.photocard:active{
+    transform:scale(1.15);
+    transition: transform 300ms ease-out;
+    transition: opacity 300ms ease, background-color 1s ease;    
+}
+
+
+.shinigami-container-style .photocard:active {
+    background-color: #811e00ec;
+    color:rgb(255, 255, 255);
+    font-style: bold;
+    margin-top: 6rem;
+}
+.quincy-container-style .photocard:active{
+    background-color: rgba(88, 177, 177, 0.61);
+        color:rgb(255, 255, 255);
+    font-style: bold;
+    margin-top: 6rem;
+}
+.espada-container-style .photocard:active{
+    background-color: rgba(178, 186, 190, 0.76);
+        color:rgb(6, 39, 15);
+    font-style: bold;
+    
+}
+.espada-container-style .photocard p {
+    margin-bottom: 2rem;
+}
+.photocard p {
+    opacity:0%;
+    transition: opacity 300ms ease out;
+    content-visibility: hidden;
+}
+
+.photocard:active p {
+    
+    content-visibility: visible;
+    justify-content: center;
+    overflow-wrap:normal;
+    word-break: break-word;
+    opacity:100%;
+    transition: opacity 300ms ease;
+    transform: scale(1.05);
+    transition: transform 300ms ease-out;
+
+    transition-duration: 1.25s;
+
+}
+
+
+/*
+*/
+
+.quincy-container-style article{
+    width:100vw;
+}
 .inner-nav {
     text-align: center;
     background-color: rgba(58, 10, 10, 0.7);
@@ -108,6 +218,10 @@ iframe {
         width: 100%;
         height: auto;
     }
+
+    .photocard{
+         font-size: .5rem;
+    }
 }
 
 .highlight {
@@ -127,6 +241,8 @@ iframe {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    transition: transform 300ms ease-out;
+
 }
 
 .shinigami-container-style {
@@ -140,6 +256,7 @@ iframe {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    transition: transform 300ms ease-out;
 }
 
 .quincy-container-style {
@@ -153,6 +270,7 @@ iframe {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    transition: transform 5000ms ease-out;
 }
 
 a {
@@ -168,7 +286,6 @@ a:hover {
 
 .hiper-style {
     background-color: rgba(58, 10, 10, 0.7);
-    ;
     padding: 2vh;
     border-radius: 10px;
     margin: 3vh;
